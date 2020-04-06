@@ -2,7 +2,7 @@
 
 # 3. Customers tablosunda hangi ülkeden kaçar tane müşteri olduğunu bulunuz.
 
-
+SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country;
 
 
 
